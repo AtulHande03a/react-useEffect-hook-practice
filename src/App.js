@@ -5,8 +5,8 @@ import UseEffectFetchData from "./UseEffectFetchData";
 
 export default function App() {
   return (
-    <div className="App">
-      <UseEffectFetchData/>
+    <div className="container">
+      <UseEffectFetchData />
     </div>
   );
 }
