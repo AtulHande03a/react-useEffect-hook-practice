@@ -12,6 +12,11 @@ const DocumentTitleuseState = () => {
       document.title = `Message (${value})`;
     }
   }, [value]);
+  //above we have added second parameter ie an empty array
+  //which is a list of dependency
+  //if left blank it runs on initial render
+  //if we provide a dependency then when that changes
+  //useeffect will render
   return (
     <>
       <h1>{value}</h1>
